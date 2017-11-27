@@ -19,8 +19,9 @@ gitlab:
     - DEBUG=false
     - GITLAB_PORT=10080
     - GITLAB_SSH_PORT=10022
-    - GITLAB_SECRETS_DB_KEY_BASE=qcs-gitlab-app
-    - GITLAB_SECRETS_SECRET_KEY_BASE=1234567890
+    - GITLAB_SECRETS_DB_KEY_BASE=vWRbvp4n4LTTMxbMTxkrK9qk4cgHrWfXK3JqtRdRKJsz7bgPLFvVWcpHhzTqzWPX
+    - GITLAB_SECRETS_SECRET_KEY_BASE=vWRbvp4n4LTTMxbMTxkrK9qk4cgHrWfXK3JqtRdRKJsz7bgPLFvVWcpHhzTqzWPX
+    - GITLAB_SECRETS_OTP_KEY_BASE=vWRbvp4n4LTTMxbMTxkrK9qk4cgHrWfXK3JqtRdRKJsz7bgPLFvVWcpHhzTqzWPX
 redis:
   restart: always
   image: sameersbn/redis:latest
